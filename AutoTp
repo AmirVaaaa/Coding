@@ -1,0 +1,13 @@
+    local Plr = game.Players.LocalPlayer
+        local DT = Plr.leaderstats:FindFirstChild("Damage")
+    while wait(3) do
+        print("Tested")
+if game.PlaceId == 10771129745 then
+    if DT == nil then
+    print("False")
+        tp = game:GetService('TeleportService')
+        tp:Teleport(10515146389, Plr)
+end
+        
+    end
+    end
